@@ -29,6 +29,8 @@ export default function App() {
       <Text style={styles.line}>UnistylesRuntime.screen: {size(launchSnapshot.unistylesScreen)}</Text>
       <Text style={styles.line}>Dimensions window: {size(launchSnapshot.rnWindow)}</Text>
       <Text style={styles.line}>Dimensions screen: {size(launchSnapshot.rnScreen)}</Text>
+      <Text style={styles.line}>UnistylesRuntime.pixelRatio: {launchSnapshot.unistylesPixelRatio}</Text>
+      <Text style={styles.line}>PixelRatio.get(): {launchSnapshot.rnPixelRatio}</Text>
 
       <Text style={styles.title}>Now</Text>
       <Text style={styles.line}>useUnistyles().rt.screen: {size(rt.screen)}</Text>
