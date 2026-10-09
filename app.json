@@ -7,7 +7,14 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.unistylesbgrepro",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification",
+          "fetch"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
